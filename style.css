@@ -10,12 +10,15 @@ body {
 .header {
     height: 520px;
     padding-top: 15px;
-    background-color: #1f2937;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     gap: 117px;
+}
+
+.header, .copyright {
+    background-color: #1f2937;
 }
 
 h1 {
@@ -91,11 +94,10 @@ a, .hl-p {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
-    margin: 0;
     line-height: 55px;
 }
 
-.hl-p {
+.hl-p, .hl-h {
     margin: 0px;
 }
 
@@ -155,4 +157,60 @@ a, .hl-p {
 
 .inspiring-quote {
     background-color: #E5E7EB;
+    height: 429px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.iq-group {
+    width: 770px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.iq-p {
+    font-size: 36px;
+    font-style: italic;
+    color: #484f5a;
+}
+
+.iq-thor {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.iq-p, .iq-thor {
+    margin: 0;
+}
+
+.action-time {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.at-banner {
+    width: 1024px;
+    height: 150px;
+    display: flex;
+    background-color: #3882F6;
+    align-items: center;
+}
+
+
+
+
+
+
+
+.copyright {
+    height: 100px;
+}
+
+.c-text {
+    margin: 0px;
 }
