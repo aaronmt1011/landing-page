@@ -44,6 +44,10 @@ a, .hl-p, .h-right, .at-button {
     font-size: 16px;
 }
 
+.ri-header, .iq-p {
+    font-size: 36px;
+}
+
 h1, .hl-h, .hl-b, .at-promo, .c-text, .at-button {
     color: #F9FAF8; 
 }
@@ -130,7 +134,6 @@ a, .hl-p, .h-right {
 }
 
 .ri-header {
-    font-size: 36px;
     padding-top: 43px;;
 }
 
@@ -159,7 +162,6 @@ a, .hl-p, .h-right {
 }
 
 .iq-p {
-    font-size: 36px;
     font-style: italic;
     color: #484f5a;
 }
